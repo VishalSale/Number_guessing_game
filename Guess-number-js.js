@@ -13,7 +13,7 @@ if (guess < 1 || guess > 100) {
 guesses++;
 
 if (guess == randomNumber) {
-  message.innerText = "Congratulations! You guessed the number in " + guesses + " guesses.";
+  message.innerText = "Congratulations You Win !!! , You guessed the number in " + guesses + " guesses.";
   disableInput();
 } else if (guess < randomNumber) {
   message.innerText = "Too low! Guess higher.";
