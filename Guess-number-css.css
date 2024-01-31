@@ -1,0 +1,49 @@
+.container {
+    padding-top: 60PX;
+    margin: 0 auto;
+    text-align: center;
+    }
+    
+    h1 {
+    font-size: 34px;
+    color: #66347f;
+    font-family: serif;
+    font-style: italic;
+    margin-bottom: 30PX;
+    }
+    
+    p {
+    font-size: 18px;
+    color: #9e4784;
+    }
+    
+    input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px;
+    }
+    
+    button {
+    padding: 8px 16px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: #243763;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: #3E8E41;
+    }
+
+    button:active {
+        box-shadow: 1.5px 1.5px 1.5px 1.5px;
+        }
+    
+    #message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    }
